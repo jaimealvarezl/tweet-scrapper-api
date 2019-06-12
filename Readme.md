@@ -1,9 +1,9 @@
 # Tweet-Scrapper-Api
 
-Web Api based on project: https://github.com/5hirish/tweet_scrapper
+Web Api based on: https://github.com/5hirish/tweet_scrapper
 
-This wrapper contains easy way to get information data of public Tweets.
-This API are tested for Python3.
+This wrapper contains an easy way to get information of public Tweeter profiles.
+This API was tested with Python3.
 
 
 ### Requeriments(Could get using pip)
@@ -16,13 +16,13 @@ pip install Flask
 
 ### How to use?
 
-Once that you has install dependecies, you can run next terminal command
+Once installed dependecies, run next commands on the terminal
 
 ```
 FLASK_APP=app.py flask run
 ```
-Next Step is consume API that * Running on http://localhost:5000/getInfo.
-Method is a Post and expected this body:
+Next Step is to consume API which is * Running on http://localhost:5000/getInfo.
+Method is a Post and expects a body as this:
 
 ```json
 {"username":"here Name account"}
