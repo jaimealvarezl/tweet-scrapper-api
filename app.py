@@ -7,7 +7,7 @@ from tweetBody import TweetBody
 app = Flask(__name__)
 
 
-@app.route('/getInfo', methods=['POST'])
+@app.route('/getUserTweets', methods=['POST'])
 def get_user_info():
     response=[]
     if request.method == 'POST':
