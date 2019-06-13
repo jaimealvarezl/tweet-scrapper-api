@@ -2,10 +2,10 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 from tweetBody import TweetBody
-
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app)
 
 @app.route('/getUserTweets', methods=['POST'])
 def get_user_info():
