@@ -9,7 +9,7 @@ This API was tested with Python3.
 ### Requeriments(Could get using pip)
 
 ```
-pip install tweetscraper
+pip install tweetscrape
 pip install Flask
 pip install flask-cors
 ```
