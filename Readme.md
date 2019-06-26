@@ -11,6 +11,7 @@ This API was tested with Python3.
 ```
 pip install tweetscrape
 pip install Flask
+pip install flask-cors
 ```
 
 or running
