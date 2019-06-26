@@ -14,7 +14,7 @@ pip install Flask
 pip install flask-cors
 ```
 
-or running
+or simply running
 
 ```
 pip install -r requirements.txt
