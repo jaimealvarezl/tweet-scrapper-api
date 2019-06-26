@@ -7,16 +7,17 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
+
 @app.route('/getUserTweets', methods=['POST'])
 def get_user_info():
-    response=[]
+    response = []
     if request.method == 'POST':
         value = request.get_json()
         username = value['username']
         page_quantity = value['quantity']
-        scrapper=TweetBody()
-        response=scrapper.getTweetsbyAccount(username,page_quantity)
-        
+        scrapper = TweetBody()
+        response = scrapper.getTweetsbyAccount(username, page_quantity)
+
     return jsonify(response)
 
 

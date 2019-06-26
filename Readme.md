@@ -13,6 +13,11 @@ pip install tweetscrape
 pip install Flask
 ```
 
+or running
+
+```
+pip install -r requirements.txt
+```
 
 ### How to use?
 
